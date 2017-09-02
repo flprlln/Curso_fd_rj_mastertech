@@ -1,0 +1,49 @@
+/*!
+ * Mastertech - Business Frontpage
+ * Insira seu código entre os comentários localizados no fim desta pagina ou/e
+ * Edite o código do layout original
+ */
+
+
+/* Edite o código abaixo para mudar as opções do layout original */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.margin_esquerda {
+    margin-left: 120px;
+}
+
+
+.business-header {
+    height: 50vh;
+    min-height: 300px;
+    background: url('../img/bg.jpeg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.cor-principal{
+    color: #9fcdff;
+}
+/* Inicio do meu CSS */
+
+.tamanho-icone{
+    width: 70px;
+    margin-top: 10px;
+}
+
+/* Fim do meu CSS */
